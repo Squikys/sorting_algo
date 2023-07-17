@@ -2,14 +2,14 @@
 edit the code if you want to sort more type of files
 
 first declare global variable
-and then add this
+and then add this:
 
-""if fileType in file_list[files]:
-        if not(global_variable) :
-            os.mkdir(folderName)
-            global_variable = True
-        newpath = folderName+'/'+file_list[files]
-        pathlib.Path(file_list[files]).rename(newpath)""
+        ""if fileType in file_list[files]:
+                if not(global_variable) :
+                    os.mkdir(folderName)
+                    global_variable = True
+                newpath = folderName+'/'+file_list[files]
+                pathlib.Path(file_list[files]).rename(newpath)""
         
 in the for loop
 
